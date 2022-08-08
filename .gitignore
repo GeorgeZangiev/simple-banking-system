@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/Simple Banking System/task/build/
+/Topics/Command-line arguments/Parameters and their values/out/
+/Topics/Command-line arguments/Parameters and their values/out/production/classes/
