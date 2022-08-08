@@ -3,18 +3,17 @@ package banking;
 import org.sqlite.SQLiteDataSource;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     Card card = new Card();
-    ArrayList<Card> listOfClients = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
     SQLiteDataSource sds;
 
     public static void main(String[] args) {
         new Main().go(args);
     }
+
     void go(String[] args){
         String url = "jdbc:sqlite:".concat(args[1]);
         sds = new SQLiteDataSource();
@@ -29,6 +28,7 @@ public class Main {
 
         welcomeText();
     }
+
     private void welcomeText() {
         System.out.println("1. Create an account");
         System.out.println("2. Log into account");
@@ -36,6 +36,7 @@ public class Main {
 
         chooseAction(sc.next());
     }
+
     private void chooseAction(String input) {
         switch (input){
             case "1": createAccount(); break;
@@ -43,6 +44,7 @@ public class Main {
             case "0": exit();
         }
     }
+
     private void createAccount() {
         Card cd = new Card();
         System.out.println("Your card has been created");
@@ -50,21 +52,20 @@ public class Main {
         System.out.println(cd.getCardNumber());
         System.out.println("Your card PIN:");
         System.out.println(cd.getPin());
-        listOfClients.add(cd);
 
         toDB(cd.getCardNumber(), cd.getPin());
         welcomeText();
     }
+
     private void toDB(String cardNumber, String pin) {
 
         try(Connection cn = sds.getConnection()) {
             try (Statement st = cn.createStatement()) {
-
                 st.executeUpdate("INSERT INTO card (number, pin) VALUES ("+ "'" +cardNumber+ "', '" +pin+ "')");
-
             } catch (Exception e) {e.printStackTrace();}
         } catch (Exception e) {e.printStackTrace();}
     }
+
     private void logInAccount() {
         System.out.println("Enter your card number:");
         String probeNumber  = sc.next();

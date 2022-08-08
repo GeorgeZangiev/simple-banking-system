@@ -2,6 +2,55 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="simple-banking-system.Simple_Banking_System-task.main" target="13" />
+      <module name="simple-banking-system.Topics-Command-line_arguments-Basic_calculator.main" target="13" />
+      <module name="simple-banking-system.Topics-Command-line_arguments-Parameters_and_their_values.main" target="13" />
+      <module name="simple-banking-system.Topics-Command-line_arguments-The_index_of_an_argument.main" target="13" />
+      <module name="simple-banking-system.Topics-Command-line_arguments-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Comments-The_forgotten_comments.main" target="13" />
+      <module name="simple-banking-system.Topics-Comments-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Constructor-Geometric_cube.main" target="13" />
+      <module name="simple-banking-system.Topics-Constructor-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Defining_classes-Inner_boxes.main" target="13" />
+      <module name="simple-banking-system.Topics-Defining_classes-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Errors_in_programs-Fix_compile-time_errors.main" target="13" />
+      <module name="simple-banking-system.Topics-Errors_in_programs-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Inheritance-Classes_for_Hospital.main" target="13" />
+      <module name="simple-banking-system.Topics-Inheritance-Find_the_same_hierarchy.main" target="13" />
+      <module name="simple-banking-system.Topics-Inheritance-Incorrect_class_hierarchies.main" target="13" />
+      <module name="simple-banking-system.Topics-Inheritance-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Instance_methods-Counter.main" target="13" />
+      <module name="simple-banking-system.Topics-Instance_methods-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Introduction_to_Java-Hello.main" target="13" />
+      <module name="simple-banking-system.Topics-Introduction_to_Java-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Package-Binary_search.main" target="13" />
+      <module name="simple-banking-system.Topics-Package-Creating_instances.main" target="13" />
+      <module name="simple-banking-system.Topics-Package-Getting_input.main" target="13" />
+      <module name="simple-banking-system.Topics-Package-Sorting_arrays.main" target="13" />
+      <module name="simple-banking-system.Topics-Package-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Printing_data-Digits_from_0_to_9_backwards.main" target="13" />
+      <module name="simple-banking-system.Topics-Printing_data-First,_second,_third.main" target="13" />
+      <module name="simple-banking-system.Topics-Printing_data-From_0_to_4.main" target="13" />
+      <module name="simple-banking-system.Topics-Printing_data-From_0_to_4__1_.main" target="13" />
+      <module name="simple-banking-system.Topics-Printing_data-Printing_a_magic_letter.main" target="13" />
+      <module name="simple-banking-system.Topics-Printing_data-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Printing_data-We_need_to_learn_Java.main" target="13" />
+      <module name="simple-banking-system.Topics-Relational_operators-Check_the_sum.main" target="13" />
+      <module name="simple-banking-system.Topics-Relational_operators-Check_the_value.main" target="13" />
+      <module name="simple-banking-system.Topics-Relational_operators-Determine_the_result.main" target="13" />
+      <module name="simple-banking-system.Topics-Relational_operators-Existing_operators.main" target="13" />
+      <module name="simple-banking-system.Topics-Relational_operators-The_result_is_true.main" target="13" />
+      <module name="simple-banking-system.Topics-Relational_operators-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Switch_statement-Direction.main" target="13" />
+      <module name="simple-banking-system.Topics-Switch_statement-Floor-space_of_the_room.main" target="13" />
+      <module name="simple-banking-system.Topics-Switch_statement-From_string_to_a_number.main" target="13" />
+      <module name="simple-banking-system.Topics-Switch_statement-Rewriting_code_using_switch.main" target="13" />
+      <module name="simple-banking-system.Topics-Switch_statement-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-The_main_method-Print__We_are_robots.main" target="13" />
+      <module name="simple-banking-system.Topics-The_main_method-Theory.main" target="13" />
+      <module name="simple-banking-system.Topics-Types_and_variables-Fill_the_declaration.main" target="13" />
+      <module name="simple-banking-system.Topics-Types_and_variables-Theory.main" target="13" />
+      <module name="simple-banking-system.util.main" target="13" />
       <module name="Simple_Banking_System.Simple_Banking_System-task-build-classes-java.main" target="11" />
       <module name="Simple_Banking_System.Simple_Banking_System-task-build-generated-sources-annotationProcessor-java.main" target="11" />
       <module name="Simple_Banking_System.Simple_Banking_System-task-build-generated-sources-headers-java.main" target="11" />
